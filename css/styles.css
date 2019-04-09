@@ -1,0 +1,60 @@
+/*Global Attributes*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+img, video {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+
+.large-screen-view{
+    display: none;
+}
+
+.mobile-view-nav .svg-container{
+    background-color: #f42;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    display: block;
+    height: 16px;
+    padding: 16px 20px;
+    width: 66px;
+}
+
+.mobile-view-nav svg.svg{
+    height: 16px;
+    width: 66px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav ,.mobile-view-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu, .search {
+    flex-grow: 1;
+    order: 1;
+}
+
+.time {
+    flex-grow: 5;
+}
+
