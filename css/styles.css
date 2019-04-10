@@ -392,11 +392,11 @@ a.caret:hover::after {
 }
 
 .section-popular-section {
-    font-size: 13px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: .04em;
-    line-height: 1.5;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  line-height: 1.5;
 }
 
 .section-popular-title {
@@ -407,7 +407,7 @@ a.caret:hover::after {
 }
 
 .section-popular-list {
-  color: hsla(0,0%,100%,.6);
+  color: hsla(0, 0%, 100%, .6);
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
@@ -418,13 +418,13 @@ a.caret:hover::after {
 }
 
 .section-popular-list-item-author:after {
-    content: "-";
-    display: inline-block;
-    margin: 0 4px;
+  content: "-";
+  display: inline-block;
+  margin: 0 4px;
 }
 
 .section-latest {
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, .06);
   display: flex;
   margin: 2px 0;
 }
@@ -463,7 +463,7 @@ a.caret:hover::after {
   opacity: 1;
   height: 96px;
   width: 96px;
-  }
+}
 
 .section-headline {
   border-bottom: 1px solid #eee;
@@ -557,9 +557,9 @@ a.caret:hover::after {
 }
 
 .story-title {
-  font-size: 14px!important;
+  font-size: 14px !important;
   font-weight: 700;
-  line-height: 18px!important;
+  line-height: 18px !important;
   margin-bottom: 1px;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -582,4 +582,88 @@ a.caret:hover::after {
 .new-price {
   color: #555;
   font-size: 14px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-links {
+  background: #131313;
+  padding: 2.5em 0;
+  color: #555;
+}
+
+.footer-links-social {
+  margin-bottom: 1.5em;
+}
+
+.footer-links-social li {
+  display: inline-block;
+  margin: 0 3px;
+
+}
+
+.footer-links-social li a {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+  box-sizing: border-box;
+}
+
+.footer-links-social li a .icon {
+  font-size: 18px;
+  color: white;
+}
+
+.footer-links-social li a:hover {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #333;
+}
+
+.footer-links-menu li {
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 4px;
+  color: #aaa;
+}
+
+.footer-links-menu li:hover {
+  color: white;
+}
+
+.footer-legal {
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 2.5em 0;
+
+}
+
+.footer-legal .wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+
+.footer-legal .wrapper span {
+  display: block;
+}
+
+.footer-legal span b {
+  color: #f42;
+}
+
+.footer-legal .wrapper .logo {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
 }
