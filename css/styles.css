@@ -140,8 +140,19 @@ ul.author-list li {
   margin-right: 8px;
 }
 
+.image-1 {
+  background-image: url(../assets/cover-image-1.jpg);
+}
+
+.image-2 {
+  background-image: url(../assets/cover-image-2.jpg);
+}
+
+.image-3 {
+  background-image: url(../assets/cover-image-3.jpg);
+}
+
 .cover-image {
-  background-image: url(../assets/cover-image-01.png);
   background-size: cover;
   background-position: 50%;
   opacity: 1;
@@ -221,9 +232,39 @@ a.caret:hover::after {
   position: relative;
 }
 
+.trigger-1 {
+  background-image: url("../assets/latest-news-1.png");
+}
+
+.trigger-2 {
+  background-image: url("../assets/latest-news-2.png");
+}
+
+.trigger-3 {
+  background-image: url("../assets/latest-news-3.jpg");
+}
+
+.trigger-4 {
+  background-image: url("../assets/latest-news-4.jpg");
+}
+
+.trigger-5 {
+  background-image: url("../assets/latest-news-5.jpg");
+}
+
+.trigger-6 {
+  background-image: url("../assets/latest-news-6.png");
+}
+
+.trigger-7 {
+  background-image: url("../assets/latest-news-7.jpg");
+}
+
+.trigger-8 {
+  background-image: url("../assets/latest-news-8.png");
+}
+
 .latest-news .latest-list .list-content .trigger {
-  /* background-color:rgba(0, 0, 0, .6); */
-  background-image: url("../assets/excel.png");
   left: 0;
   padding-top: 75px;
   position: absolute;
@@ -365,8 +406,39 @@ a.caret:hover::after {
   width: 100%;
 }
 
+.popular-image-1 {
+  background-image: url(../assets/section-image-1.png);
+}
+
+.popular-image-2 {
+  background-image: url(../assets/section-image-2.png);
+}
+
+.popular-image-3 {
+  background-image: url(../assets/section-image-3.png);
+}
+
+.popular-image-4 {
+  background-image: url(../assets/section-image-4.png);
+}
+
+.popular-image-5 {
+  background-image: url(../assets/section-image-5.png);
+}
+
+.popular-image-6 {
+  background-image: url(../assets/latest-news-3.jpg);
+}
+
+.popular-image-7 {
+  background-image: url(../assets/section-image-7.jpg);
+}
+
+.popular-image-8 {
+  background-image: url(../assets/cover-image-1.jpg);
+}
+
 .section-popular-image {
-  background-image: url(../assets/section-image.png);
   background-color: #000;
   background-size: cover;
   background-position: 50%;
@@ -463,8 +535,39 @@ a.caret:hover::after {
   line-height: 1.25;
 }
 
+.section-image-1 {
+  background-image: url(../assets/section-latest-1.jpg);
+}
+
+.section-image-2 {
+  background-image: url(../assets/cover-image-2.jpg);
+}
+
+.section-image-3 {
+  background-image: url(../assets/latest-funding-1.png);
+}
+
+.section-image-4 {
+  background-image: url(../assets/section-latest-4.jpg);
+}
+
+.section-image-5 {
+  background-image: url(../assets/section-latest-5.png);
+}
+
+.section-image-6 {
+  background-image: url(../assets/cover-image-3.jpg);
+}
+
+.section-image-7 {
+  background-image: url(../assets/section-latest-7.jpg);
+}
+
+.section-image-8 {
+  background-image: url(../assets/section-latest-8.jpg);
+}
+
 .section-latest-image {
-  background-image: url(../assets/section-latest.jpg);
   flex: 0 0 96px;
   background-position: 50%;
   background-size: cover;
@@ -543,8 +646,39 @@ a.caret:hover::after {
   position: relative;
 }
 
+.story-image-1 {
+  background-image: url(../assets/story-deal-1.jpg);
+}
+
+.story-image-2 {
+  background-image: url(../assets/story-deal-2.jpg);
+}
+
+.story-image-3 {
+  background-image: url(../assets/story-deal-3.jpg);
+}
+
+.story-image-4 {
+  background-image: url(../assets/story-deal-4.jpg);
+}
+
+.story-image-5 {
+  background-image: url(../assets/story-deal-5.jpg);
+}
+
+.story-image-6 {
+  background-image: url(../assets/story-deal-6.jpg);
+}
+
+.story-image-7 {
+  background-image: url(../assets/story-deal-7.jpg);
+}
+
+.story-image-8 {
+  background-image: url(../assets/story-deal-8.jpg);
+}
+
 .story-image {
-  background-image: url(../assets/story-deal.jpg);
   left: 0;
   padding-top: 75px;
   position: absolute;
