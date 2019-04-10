@@ -5,6 +5,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  color: #555;
+}
+
 ul {
   list-style-type: none;
 }
@@ -41,13 +45,17 @@ video {
   display: none;
 }
 
-.mobile-view-nav .svg-container {
+.nav .nav-logo {
   background-color: #f42;
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   display: block;
+  z-index: 5;
   height: 16px;
   padding: 16px 20px;
   width: 66px;
+  left: 0;
+  position: absolute;
+  top: 0;
 }
 
 .mobile-view-nav svg.svg {
@@ -666,4 +674,55 @@ a.caret:hover::after {
   height: 9px;
   margin-right: 1px;
   vertical-align: baseline;
+}
+
+
+@media (min-width: 768px) {
+  .nav ul.nav-tnw {
+    display: flex;
+    background: #131313;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 32px;
+    max-height: 32px;
+    z-index: 1;
+    position: absolute;
+    left: 12%;
+    right: 0;
+  }
+
+  .nav ul.nav-tnw li {
+    padding-left: 20px;
+    color: hsla(0, 0%, 100%, .6);
+  }
+
+  .nav ul.nav-tnw li:first-of-type {
+    color: white;
+  }
+
+  .nav .nav-menu{
+    display: flex;
+    height: 48px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 32px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
