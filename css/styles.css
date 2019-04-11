@@ -298,7 +298,7 @@ a.caret:hover::after {
   padding: 8px;
 }
 
-.latest-funding-header .list > * {
+.latest-funding-header .list>* {
   padding-top: 0.6em;
   line-height: 18px;
   font-weight: 300;
@@ -817,7 +817,9 @@ a.caret:hover::after {
 }
 
 @media (min-width: 768px) {
-  .large-screen-view {
+
+  .large-screen-view,
+  .story-deal-discount {
     display: initial;
   }
 
@@ -841,13 +843,14 @@ a.caret:hover::after {
     padding: 16px 0;
   }
 
-  .nav-logo > a {
+  .nav-logo>a {
     display: inline-block;
     position: relative;
     height: 80px;
     padding: 16px 20px;
     box-sizing: border-box;
   }
+
   .nav-logo {
     left: 0;
     right: 0;
@@ -936,6 +939,7 @@ a.caret:hover::after {
   ul.nav-tnw li {
     margin-left: 12px;
   }
+
   ul.nav-tnw li:first-of-type {
     color: white;
   }
@@ -962,8 +966,8 @@ a.caret:hover::after {
     grid-template-columns: 66.66666% 33.33333%;
     grid-template-rows: 50% 50%;
     grid-template-areas:
-    "grid-1 grid-2"
-    "grid-1 grid-3";
+      "grid-1 grid-2"
+      "grid-1 grid-3";
     height: 60vh;
   }
 
@@ -987,88 +991,120 @@ a.caret:hover::after {
     display: none;
   }
 
-.latest-news .latest-list {
+  .latest-news .latest-list {
     display: grid;
     grid-template-columns: 33.33333% 33.33333% 33.33333%;
     grid-template-rows: 33.33333% 33.33333% 33.33333%;
     grid-template-areas:
-    "1fr 1fr 1fr";
+      "1fr 1fr 1fr";
   }
 
-.latest-news .latest-list .list-content {
-  padding: 0;
-}
-
-.latest-news .latest-list .list-content .trigger {
-  padding-top: 50%;
-  position: initial;
-  width: 100%;
-}
-
-.latest-news .latest-list .list-content h4 {
-  margin-top: 8px;
-}
-
-.latest-funding {
-  display: grid;
-  grid-template-columns: 33.33333% 33.33333% 33.33333%;
-  grid-template-rows: auto;
-  grid-template-areas:
-  "header header header"
-  "1fr 1fr 1fr";
-}
-
-.latest-funding-header {
-  grid-area: header;
-}
-
-.latest-funding-header .list li {
-  display: inline-block;
-  padding: 0 8px;
-  box-sizing: border-box;
-}
-
-.latest-funding-header .list li:nth-child(2) {
-  border-width: 0 1px;
-  border-color: #f42;
-  border-style: solid;
-}
-
-.latest-funding-header .list li:first-of-type {
-  padding-left: 0;
-}
-
-.sections {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.page-section {
-  flex-basis: 50%;
-  box-sizing: border-box;
-}
-
-.deals-list {
-  display: grid;
-  grid-template-columns: 33.33333% 33.33333% 33.33333%;
-  grid-auto-rows: auto;
-  grid-template-areas:
-  "1fr 1fr 1fr"
+  .latest-news .latest-list .list-content {
+    padding: 0;
   }
 
-.deals-list-item {
-  width: initial;
-}
+  .latest-news .latest-list .list-content .trigger {
+    padding-top: 50%;
+    position: initial;
+    width: 100%;
+  }
 
-.story-deal {
-  padding-left: 0;
-}
+  .latest-news .latest-list .list-content h4 {
+    margin-top: 8px;
+  }
 
-.story-image {
-  padding-top: 74.5%;
-  position: initial;
-  width: initial;
-}
+  .latest-funding {
+    display: grid;
+    grid-template-columns: 33.33333% 33.33333% 33.33333%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "header header header"
+      "1fr 1fr 1fr";
+  }
+
+  .latest-funding-header {
+    grid-area: header;
+  }
+
+  .latest-funding-header .list li {
+    display: inline-block;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+
+  .latest-funding-header .list li:nth-child(2) {
+    border-width: 0 1px;
+    border-color: #f42;
+    border-style: solid;
+  }
+
+  .latest-funding-header .list li:first-of-type {
+    padding-left: 0;
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .page-section {
+    flex-basis: 50%;
+    box-sizing: border-box;
+  }
+
+  .deals-list {
+    display: grid;
+    grid-template-columns: 33.33333% 33.33333% 33.33333%;
+    grid-auto-rows: auto;
+    grid-template-areas:
+      "1fr 1fr 1fr"
+  }
+
+  .deals-list-item {
+    width: initial;
+  }
+
+  .story-deal {
+    padding-left: 0;
+  }
+
+  .story-image {
+    padding-top: 74.5%;
+    position: initial;
+    width: initial;
+  }
+
+  .story-deal-discount {
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #000;
+
+    background-image: url("../assets/deals-ribbon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 80px;
+    overflow: hidden;
+    width: 80px;
+    z-index: 10;
+
+  }
+
+  .story-deal-discount div {
+    transform: rotate(45deg);
+    font-size: 14px;
+    font-weight: 700;
+    left: 8px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 20px;
+    width: 100%;
+  }
+
+
 
 }
