@@ -958,7 +958,7 @@ a.caret:hover::after {
   }
 
   main {
-    margin-top: 120px;
+    margin-top: 110px;
   }
 
   .cover {
@@ -995,8 +995,7 @@ a.caret:hover::after {
     display: grid;
     grid-template-columns: 33.33333% 33.33333% 33.33333%;
     grid-template-rows: 33.33333% 33.33333% 33.33333%;
-    grid-template-areas:
-      "1fr 1fr 1fr";
+    grid-template-areas: "1fr 1fr 1fr";
   }
 
   .latest-news .latest-list .list-content {
@@ -1057,8 +1056,7 @@ a.caret:hover::after {
     display: grid;
     grid-template-columns: 33.33333% 33.33333% 33.33333%;
     grid-auto-rows: auto;
-    grid-template-areas:
-      "1fr 1fr 1fr"
+    grid-template-areas: "1fr 1fr 1fr";
   }
 
   .deals-list-item {
@@ -1076,7 +1074,6 @@ a.caret:hover::after {
   }
 
   .story-deal-discount {
-
     position: absolute;
     right: 0;
     top: 0;
@@ -1090,7 +1087,6 @@ a.caret:hover::after {
     overflow: hidden;
     width: 80px;
     z-index: 10;
-
   }
 
   .story-deal-discount div {
@@ -1105,6 +1101,39 @@ a.caret:hover::after {
     width: 100%;
   }
 
+  .footer-legal .wrapper span {
+    display: inline-block;
+  }
+}
 
+@media (min-width: 1024px) {
+  .nav-search .time {
+    display: none;
+  }
 
+  .cover {
+    height: 75vh;
+    max-height: 560px;
+  }
+
+  .latest-news .latest-list,
+  .deals-list {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: "1fr 1fr 1fr 1fr";
+  }
+
+  .latest-funding {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header""1fr 1fr 1fr 1fr";
+  }
+
+  .story-wrapper.x-large-screen-view {
+    display: initial;
+  }
+
+  .page-section {
+    flex-basis: 33.3%;
+  }
 }
