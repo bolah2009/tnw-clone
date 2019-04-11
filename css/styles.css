@@ -232,6 +232,10 @@ a.caret:hover::after {
   position: relative;
 }
 
+.list h4 {
+  color: black;
+}
+
 .trigger-1 {
   background-image: url("../assets/latest-news-1.png");
 }
@@ -808,6 +812,10 @@ a.caret:hover::after {
   vertical-align: baseline;
 }
 
+.x-large-screen-view {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .large-screen-view {
     display: initial;
@@ -948,4 +956,119 @@ a.caret:hover::after {
   main {
     margin-top: 120px;
   }
+
+  .cover {
+    display: grid;
+    grid-template-columns: 66.66666% 33.33333%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "grid-1 grid-2"
+    "grid-1 grid-3";
+    height: 60vh;
+  }
+
+  .cover-story {
+    height: initial;
+  }
+
+  .grid-1 {
+    grid-area: grid-1;
+  }
+
+  .grid-2 {
+    grid-area: grid-2;
+  }
+
+  .grid-3 {
+    grid-area: grid-3;
+  }
+
+  ul.author-list li.mobile-view {
+    display: none;
+  }
+
+.latest-news .latest-list {
+    display: grid;
+    grid-template-columns: 33.33333% 33.33333% 33.33333%;
+    grid-template-rows: 33.33333% 33.33333% 33.33333%;
+    grid-template-areas:
+    "1fr 1fr 1fr";
+  }
+
+.latest-news .latest-list .list-content {
+  padding: 0;
+}
+
+.latest-news .latest-list .list-content .trigger {
+  padding-top: 50%;
+  position: initial;
+  width: 100%;
+}
+
+.latest-news .latest-list .list-content h4 {
+  margin-top: 8px;
+}
+
+.latest-funding {
+  display: grid;
+  grid-template-columns: 33.33333% 33.33333% 33.33333%;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header header header"
+  "1fr 1fr 1fr";
+}
+
+.latest-funding-header {
+  grid-area: header;
+}
+
+.latest-funding-header .list li {
+  display: inline-block;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.latest-funding-header .list li:nth-child(2) {
+  border-width: 0 1px;
+  border-color: #f42;
+  border-style: solid;
+}
+
+.latest-funding-header .list li:first-of-type {
+  padding-left: 0;
+}
+
+.sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.page-section {
+  flex-basis: 50%;
+  box-sizing: border-box;
+}
+
+.deals-list {
+  display: grid;
+  grid-template-columns: 33.33333% 33.33333% 33.33333%;
+  grid-auto-rows: auto;
+  grid-template-areas:
+  "1fr 1fr 1fr"
+  }
+
+.deals-list-item {
+  width: initial;
+}
+
+.story-deal {
+  padding-left: 0;
+}
+
+.story-image {
+  padding-top: 74.5%;
+  position: initial;
+  width: initial;
+}
+
 }
