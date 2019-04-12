@@ -205,6 +205,8 @@ ul.author-list li {
 
 h2.headline {
   margin-bottom: 14px;
+  margin-top: 14px;
+  padding: 4px;
   color: #f42;
   font-weight: 700;
   font-size: 28px;
@@ -220,6 +222,10 @@ a.caret:hover::after {
   position: relative;
   display: flex;
   flex-direction: column;
+}
+
+.latest-news {
+  margin-top: 24px;
 }
 
 .latest-news .latest-list .list {
@@ -626,7 +632,8 @@ a.caret:hover::after {
   color: #f42;
   float: right;
   line-height: 18px;
-  margin-top: 11px;
+  margin-top: 14px;
+  padding: 4px;
 }
 
 .deals-list {
@@ -832,8 +839,6 @@ a.caret:hover::after {
   }
 
   .nav {
-    display: flex;
-    flex-direction: column;
     font-size: 14px;
   }
 
