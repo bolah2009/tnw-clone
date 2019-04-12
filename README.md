@@ -10,15 +10,15 @@ This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https:
 
 #### ScreenShot
 
-### Small Screen (<768)
+##### Small Screen (<768px)
 
 ![Live ScreenShot for screen-width less than 768px](https://res.cloudinary.com/bolaah/image/upload/v1555028857/github-microverse-project/tnw-clone-s.jpg)
 
-### Small Screen (<1024)
+##### Medium Screen (<1024px)
 
 ![Live ScreenShot for screen-width less than 1024px](https://res.cloudinary.com/bolaah/image/upload/v1555028857/github-microverse-project/tnw-clone-l.jpg)
 
-### Small Screen (>1024)
+##### Large Screen (>1024px)
 
 ![Live ScreenShot for screen-width greater than 1024px](https://res.cloudinary.com/bolaah/image/upload/v1555028857/github-microverse-project/tnw-clone-xl.jpg)
 
