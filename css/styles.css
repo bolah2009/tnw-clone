@@ -25,6 +25,38 @@ video {
   max-width: 100%;
 }
 
+/*Hover effects*/
+
+.story-title a:hover, .section-latest-title a:hover, .list-content h4 a:hover {
+  box-shadow: inset 0 -1px 0 rgba(255,68,34,.25);
+  color: #f42;
+}
+
+ .list-content .author-list li a:hover {
+  color: #555;
+}
+
+ul.nav-tnw li a:hover, .section-popular-list li a:hover, ul.author-list li a:hover {
+  color: #fff;
+}
+
+.nav-menu-search a:hover, .section-headline-title a:hover, .latest-funding-header .list li a:hover, .latest-funding .story .investment-card a:hover {
+  color: #000;
+}
+
+.section-popular-title a:hover {
+  box-shadow: inset 0 -1px 0 hsla(0,0%,100%,.3);
+}
+
+.footer-links-social li a:hover {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #333;
+}
+
+.caret:hover::after {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23000" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
+}
+
 .caret::after {
   background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
   background-size: 16px 16px;
@@ -35,10 +67,6 @@ video {
   position: relative;
   top: 0;
   width: 16px;
-}
-
-.caret:hover::after {
-  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23000" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
 }
 
 .large-screen-view {
@@ -772,11 +800,6 @@ a.caret:hover::after {
   color: white;
 }
 
-.footer-links-social li a:hover {
-  background: transparent;
-  box-shadow: inset 0 0 0 2px #333;
-}
-
 .footer-links-menu li {
   font-weight: 500;
   text-transform: uppercase;
@@ -882,9 +905,6 @@ a.caret:hover::after {
     justify-content: space-between;
   }
 
-  .nav-menu-search a:hover {
-    color: black;
-  }
 
   .nav-menu {
     display: flex;
@@ -949,9 +969,6 @@ a.caret:hover::after {
     color: white;
   }
 
-  ul.nav-tnw li a:hover {
-    color: white;
-  }
 
   .nav-message {
     position: absolute;
